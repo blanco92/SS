@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Введите числa"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:layout_marginRight="10pt"
+        android:layout_marginTop="3pt" >
+
+        <EditText
+            android:id="@+id/etNum1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5pt"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:inputType="numberDecimal" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etNum2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+       <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:layout_marginRight="10pt"
+        android:layout_marginTop="3pt" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" >
+
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="2-ая" />
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="8-ая" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="10-ая" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp" >
+
+            <RadioButton
+                android:id="@+id/radio00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2-ая" />
+
+            <RadioButton
+                android:id="@+id/radio01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8-ая" />
+
+            <RadioButton
+                android:id="@+id/radio02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10-ая" />
+        </RadioGroup>
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5pt"
+    android:layout_marginRight="5pt"
+    android:layout_marginTop="3pt" >
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:text="+"
+        android:textSize="8pt" >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/btnUm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="*" />
+    
+    <Button
+        android:id="@+id/btnDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="/" />
+
+</LinearLayout>
+ 
+<TextView 
+android:layout_height="wrap_content" 
+android:layout_width="match_parent" 
+android:layout_marginLeft="5pt" 
+android:layout_marginRight="5pt" 
+android:textSize="9pt" 
+android:layout_marginTop="3pt" 
+android:id="@+id/tvResult" 
+android:gravity="center_horizontal"> 
+</TextView> 
+
+<TextView 
+android:layout_height="wrap_content" 
+android:layout_width="match_parent" 
+android:layout_marginLeft="5pt" 
+android:layout_marginRight="5pt" 
+android:textSize="9pt" 
+android:layout_marginTop="3pt" 
+android:id="@+id/tvResult2" 
+android:gravity="center_horizontal"> 
+</TextView> 
+
+<TextView 
+android:layout_height="wrap_content" 
+android:layout_width="match_parent" 
+android:layout_marginLeft="5pt" 
+android:layout_marginRight="5pt" 
+android:textSize="9pt" 
+android:layout_marginTop="3pt" 
+android:id="@+id/tvResult3" 
+android:gravity="center_horizontal"> 
+</TextView> 
+</LinearLayout>
